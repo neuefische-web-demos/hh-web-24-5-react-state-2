@@ -36,7 +36,7 @@ export default function SearchResults({ searchTerm }) {
   }
 
   return (
-    <div style={{ border: "1px solid green" }}>
+    <div style={{ border: "1px solid blue" }}>
       <ul>
         {results.map((result) => (
           <li key={result}>{result}</li>
